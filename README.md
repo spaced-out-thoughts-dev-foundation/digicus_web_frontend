@@ -4,5 +4,3 @@
 
 [![Bean Stock Updated](https://github.com/spaced-out-thoughts-dev-foundation/digicus_web_frontend/actions/workflows/bean_stock_remote_submodule_update.yml/badge.svg)](https://github.com/spaced-out-thoughts-dev-foundation/digicus_web_frontend/actions/workflows/bean_stock_remote_submodule_update.yml)
 
-This is the compiler plugin for turning JSON into DTR.
-
