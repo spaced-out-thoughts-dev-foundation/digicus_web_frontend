@@ -7,3 +7,6 @@ run:
 
 version:
 	@./digicus_web_frontend version
+
+setup:
+	bundle install
