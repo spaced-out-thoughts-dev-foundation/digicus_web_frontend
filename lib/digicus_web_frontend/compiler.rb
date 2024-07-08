@@ -22,7 +22,8 @@ module DigicusWebFrontend
         form_state(json_code['contract_state']),
         form_functions(json_code['contract_interface']),
         form_user_defined_types(json_code['contract_user_defined_types']),
-        form_functions(json_code['contract_helpers'])
+        form_functions(json_code['contract_helpers']),
+        nil # non_translatables
       ).to_s
     end
 
