@@ -36,7 +36,7 @@ if __FILE__ == $PROGRAM_NAME
     end
 
     json_for_web = silence_streams do
-      DigicusWebFrontend::Compiler.from_dtr(File.read(input))
+      DigicusWebFrontend::Compiler.to_dtr(File.read(input))
     end
 
     puts json_for_web
