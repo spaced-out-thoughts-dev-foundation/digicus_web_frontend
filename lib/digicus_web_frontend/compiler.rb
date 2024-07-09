@@ -30,7 +30,7 @@ module DigicusWebFrontend
     private
 
     def form_state(state)
-      return [] if state.nil?
+      return [] if state.nil? || state.empty?
 
       state.map do |s|
         json_s = JSON.parse(s)
@@ -44,7 +44,7 @@ module DigicusWebFrontend
     end
 
     def form_functions(functions)
-      return [] if functions.nil?
+      return [] if functions.nil? || functions.empty?
 
       functions.map do |f|
         json_f = JSON.parse(f)
@@ -59,7 +59,8 @@ module DigicusWebFrontend
               ins['instruction'],
               ins['inputs'],
               ins['assign'],
-              ins['scope']
+              ins['scope'],
+              ins['id']
             )
           end
         )
@@ -67,7 +68,7 @@ module DigicusWebFrontend
     end
 
     def form_user_defined_types(user_defined_types)
-      return [] if user_defined_types.nil?
+      return [] if user_defined_types.nil? || user_defined_types.empty?
 
       user_defined_types.map do |t|
         json_t = JSON.parse(t)

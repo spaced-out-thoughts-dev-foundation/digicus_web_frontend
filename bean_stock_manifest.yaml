@@ -1,7 +1,7 @@
 ---
 name: digicus_web_frontend
 type: backend
-version: 0.0.3
+version: 0.1.0
 description: Frontend for Digicus IDE web application. Compiles JSON to DTR.
 command: make run FILEPATH
 author: rob | me@robdurst.com

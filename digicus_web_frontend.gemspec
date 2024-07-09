@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'digicus_web_frontend'
-  spec.version       = '0.0.3'
+  spec.version       = '0.1.0'
   spec.authors = ['Rob Durst']
   spec.email         = ['me@robdurst.com']
   spec.summary       = 'DTR to JSON compiler.'
